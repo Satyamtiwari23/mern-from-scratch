@@ -1,0 +1,71 @@
+1. Basic Structure Tags
+<!DOCTYPE html> → tells browser it's HTML5
+<html> → root element
+<head> → metadata (not visible)
+<title> → page title (tab name)
+<body> → visible content
+
+2. Text & Content Tags
+<h1> → main heading (SEO important)
+<p> → paragraph
+<br> → line break
+<hr> → horizontal line
+
+3. Formatting Tags
+<b> → just bold
+<strong> → important (SEO)
+<i> → italic
+<em> → emphasis (semantic)
+<mark> mark the text
+<small>make text smaller
+<del>create a deleted text
+<ins>inserted text
+<sub>subscript
+<sup>superscript
+
+4. Links & Media
+<a> → hyperlink
+<img> → image
+<video> → video
+<audio> → sound
+
+5. List Tags
+<ul> → unordered list
+<ol> → ordered list
+<li> → list item
+<dl> → description list
+
+6. Layout / Structure Tags (VERY IMPORTANT)
+<div> → block container
+<span> → inline container
+<header> → top section
+<footer> → bottom
+<section> → grouped content
+<article> → independent content
+<nav> → navigation bar
+<aside> → sidebar
+<main> → main content
+
+7. Form Tags
+<form> → form container
+<input> → user input
+<textarea> → multi-line input
+<select> → dropdown
+<button> → action
+<option> → dropdown option
+<label> → form label
+
+8. Table Tags
+<table> → table
+<tr> → row
+<td> → data
+<th> → heading
+<thead> → table header
+<tbody> → table body
+<tfoot> → table footer
+
+9. Meta & Head Tags
+<meta> → SEO, charset
+<link> → CSS file
+<script>  JavaScript
+<style> internal
