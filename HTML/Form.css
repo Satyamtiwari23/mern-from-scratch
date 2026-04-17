@@ -1,0 +1,11 @@
+input[type="text"], input[type="password"] {
+    width: 200px;
+    padding: 5px;
+    margin: 5px 0;
+}
+input[type="submit"], input[type="reset"] {
+    padding: 5px 10px;
+    margin: 30px;
+    cursor: pointer;
+    box-shadow:4px 4px 4px #271201;
+}
