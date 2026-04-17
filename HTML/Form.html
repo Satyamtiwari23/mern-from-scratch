@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Form.css">
+</head>
+<body>
+    <form class="form">
+        <fieldset>
+            <Legend>Sign up Page</Legend>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" placeholder="Your Name here"><br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="Your Password here"><br><br>
+
+            <p>Gender:</p>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+        
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+        
+            <input type="radio" name="gender" id="others">
+            <label for="others">Others</label>
+            <br><br>
+
+            <label for="address">Address:</label><br>
+            <textarea id="address" placeholder="Your address here"></textarea>
+            <br><br>
+
+                <!-- Languages -->
+                <p>Languages Known:</p>
+                <input type="checkbox" id="hindi">
+                <label for="hindi">Hindi</label>
+            
+                <input type="checkbox" id="english">
+                <label for="english">English</label>
+            
+                <input type="checkbox" id="gujrati">
+                <label for="gujrati">Gujrati</label>
+                <br><br>
+            
+                <!-- Select -->
+                <label for="items">Items to add:</label>
+                <select id="items">
+                    <option>Item 1</option>
+                    <option>Item 2</option>
+                    <option>Item 3</option>
+                </select>
+                <br><br>
+
+
+            <label for="date">Date of Birth:</label>
+            <input type="date" id="date"><br><br>
+
+            <label for="pic">Photo:</label>
+            <input type="file" id="pic"><br><br>
+
+            <label for="submit"></label>
+            <input type="submit" id="submit"><br><br>
+        </fieldset>
+    </form>
+</body>
+</html>
